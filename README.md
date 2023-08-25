@@ -7,7 +7,7 @@ No diretório do projeto, você pode executar:
 ## Integração com Google Sheets
 
 Basta editar a variável `REACT_APP_GOOGLE_SHEETS_API_KEY` no arquivo `env.development`
-> Nota: Deixei a minha chave para teste. Para testar pode usar essa planilha  `15IvwN1RP4tDQ4tocLmIAQ6c60FDzEgSfCpnPkSzb4wM`
+> Nota: Deixei a minha chave para teste. Para testar pode usar essa planilha  `1vzk5dlRVmoH8t-s5OuAMfJRXK6DDxxp4S5bppRs0D3w`
 
 ## Como usar a aplicação
 
