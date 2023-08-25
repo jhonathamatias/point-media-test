@@ -3,9 +3,11 @@ export interface Sheet {
   rows: string[];
 }
 
+console.log(process.env)
+
 export default class GoogleSheetsApi {
-  private static readonly key = 'AIzaSyCzlYz2WFOFErYrDbkv9McyeJH2dpV9Mv4';
-  private static readonly baseUrl = 'https://sheets.googleapis.com/v4/spreadsheets';
+  private static readonly key = process.env.REACT_APP_GOOGLE_SHEETS_API_KEY;
+  private static readonly baseUrl = process.env.REACT_APP_GOOGLE_SHEETS_BASE_URL;
   private spreadsheetId: string;
 
   constructor(spreadsheetId: string) {
